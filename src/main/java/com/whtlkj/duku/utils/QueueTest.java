@@ -16,7 +16,6 @@ public class QueueTest {
         for (Integer i: integers){
             System.out.println(i);
         }
-        assert input.length > 1 : "The length is more than 1!!!";
     }
 
     // 求数组中最小的k个数

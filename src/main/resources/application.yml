@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path:
+
+
+##日志级别
+logging:
+  level:
+    com.whtlkj.duku: info
+spring:
+  output:
+    ansi:
+      enabled: always
+  mail:
+    default-encoding: UTF-8
+    host: smtp.qq.com
+    password: tvcljvhemcdzbcjg
+    port: 25
+    username: 1042450985@qq.com
+#    com.whtlkj: debug
+#  file: log/spring.log
